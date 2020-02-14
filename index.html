@@ -11,13 +11,71 @@
 </head>
 <body>
     <div class="container">
-        <h3 class="center">The Fortune Teller</h3>
-        <p class="lead">Why pay a fortune teller when you can just program your fortune yourself?</p>
-        <ul class="list-group">
-            <li class="list-group-item">Store the following into variables: number of children, partner's name, geographic location, job title.</li>
-            <li class="list-group-item">Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."</li>
-        </ul>
+        <h1>Intro to Programming</h1>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Fortune Teller</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Why pay a fortune teller when you can just program your fortune yourself?</h6>
+                      <ul class="list-group">
+                        <li class="list-group-item">Store the following into variables: number of children, partner's name, geographic location, job title.</li>
+                        <li class="list-group-item">Output your fortune to the screen like so: <samp>"You will be a X in Y, and married to Z with N kids."</samp></li>
+                    </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Age Calculator</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Forgot how old someone is? Calculate it!</h6>
+                      <ul class="list-group">
+                        <li class="list-group-item">Store the current year in a variable.</li>
+                        <li class="list-group-item">Store their birth year in a variable.</li>
+                        <li class="list-group-item">Calculate their 2 possible ages based on the stored values.</li>
+                        <li class="list-group-item">Output them to the screen like so: "They are either NN or NN", substituting the values.</li>
+                    </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Temperature Converter</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Let's make a program to convert celsius tempatures to fahrenheit and vice versa, so we can complain about the weather with our friends oversees.</h6>
+                      <ul class="list-group">
+                        <li class="list-group-item">Store a celsius temperature into a variable.</li>
+                        <li class="list-group-item">Convert it to fahrenheit and output "NN°C is NN°F".</li>
+                        <li class="list-group-item">Now store a fahrenheit temperature into a variable.</li>
+                        <li class="list-group-item">Convert it to celsius and output "NN°F is NN°C."</li>
+                      </ul>
+                      <div class="alert alert-secondary mt-3" role="alert">
+                        <p><strong>Reminder:</strong>To convert celsius to fahrenheit, multiply by 9, then divide by 5, then add 32. To convert fahrenheit to celsius, deduct 32, then multiply by 5, then divide by 9.</p>
+                        <hr>
+                        <p class="mb-0"><strong>Unicode Characters:</strong> To print the degrees symbol in JavaScript, we need to use the write \u00B0 to represent the unicode character for the degress symbol.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title">Challenge Question: Using Math functions</h5>
+              <h6 class="card-subtitle mb-2 text-muted">JavaScript has a built-in tool that can generate a random number between 0 and 1. This tool is called a method. We'll talk about methods more later in the class. For now, know if you type <code>Math.random()</code>, you'll get a random number between 0 and 1.</h6>
+              <p>Using this tool, update your fahrenheit to celsius tempature conversion program to do the following:</p>
+              <ul class="list-group">
+                <li class="list-group-item">Instead of inputing a value for the Fahrenheit tempature, use Math.random() to generate a random tempature between 0 and 100</li>
+                <li class="list-group-item">Have to program output: "It is NN°F today. That's NN°C."</li>
+              </ul>
+              <div class="alert alert-secondary mt-3" role="alert">
+                <p><strong>Reminder:</strong>To convert celsius to fahrenheit, multiply by 9, then divide by 5, then add 32. To convert fahrenheit to celsius, deduct 32, then multiply by 5, then divide by 9.</p>
+                <hr>
+                <p class="mb-0"><strong>Unicode Characters:</strong> To print the degrees symbol in JavaScript, we need to use the write \u00B0 to represent the unicode character for the degress symbol.</p>
+              </div>
+            </div>
+          </div>
     </div>
-    
 </body>
 </html>
